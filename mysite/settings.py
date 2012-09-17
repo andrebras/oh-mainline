@@ -121,7 +121,7 @@ MIDDLEWARE_CLASSES = [
     'mysite.base.middleware.HandleWannaHelpQueue',
     'django.middleware.transaction.TransactionMiddleware',
     # Django debug toolbar
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # TODO: temporary - 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
